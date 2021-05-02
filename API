@@ -1,10 +1,4 @@
-<?php
-	header('Content-Type: text/html; charset=utf-8');
-	//echo $_SERVER['REQUEST_METHOD'];
-	//print_r($_POST);
-	//var_dump(file_get_contents("php://input"));
-	
-	if($_SERVER["REQUEST_METHOD"] == "POST"){
+
 		//echo "recebido um POST";
 		if(isset($_POST["nome"]) && isset($_POST["valor"]) && isset($_POST["hora"])){
 			file_put_contents("files/".$_POST["nome"]."/valor.txt", $_POST["valor"]);
