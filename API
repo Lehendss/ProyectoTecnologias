@@ -1,7 +1,7 @@
 <?php
 	header('Content-Type: text/html; charset=utf-8');
 	//echo $_SERVER['REQUEST_METHOD'];
-	//print_r($_POST);
+	//print_r($_POST)@
 	//var_dump(file_get_contents("php://input"));
 	
 	if($_SERVER["REQUEST_METHOD"] == "POST"){
