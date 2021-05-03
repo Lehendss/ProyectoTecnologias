@@ -5,7 +5,7 @@
 
 	session_destroy();
 	
-	header("refresh:0;url=autenticacion.php");
+	header("location:autenticacion.php");
 	
-	//header('Location:index.php');
+	die("Session Ended!");
 ?>

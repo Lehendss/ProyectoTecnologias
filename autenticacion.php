@@ -44,15 +44,15 @@
 		<title> Log In | The Vault</title>
 	</head>
 
-	<body style="height: 1px; background-color:#2C82FF; background-image:linear-gradient(to right,rgb(44, 130, 255, 0), rgb(44, 130, 255, 0));">
+	<body style="height: 1px; background-color:#2C82FF;">
 		
 		<!--top: 70px; left: 130px; box-shadow: 2px 2px 15px 8px #FFC44F;-->
-		<img src="imagen.png" alt="" width="800" height="800" style="position: fixed ; filter: opacity(65%); ">
+		<img src="api/img/imagen.png" alt="" width="800" height="800" style="position: fixed ; filter: opacity(65%); ">
 		
 		<div class="container" style="position: fixed; top: 100px; left: 510px;">
 			<form class="form_ti" method="post">
 				
-				<a href="autenticacion.php"><img src="logo.png" alt="" width="462" height="252" style="position: relative; right: 72px; "></a>
+				<a href="autenticacion.php"><img src="api/img/logo.png" alt="" width="462" height="252" style="position: relative; right: 72px; "></a>
 				
 				<div class="form-group" style="color:#DCDCDC">
 					<label for="usr">Username:</label>
